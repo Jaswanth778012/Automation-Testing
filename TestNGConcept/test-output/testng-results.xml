@@ -1,33 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="6" total="9" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-27T07:25:17 IST" name="Default suite" finished-at="2026-03-27T07:25:32 IST" duration-ms="15165">
+  <suite started-at="2026-04-06T15:50:22 IST" name="Suite" finished-at="2026-04-06T15:50:22 IST" duration-ms="53">
     <groups>
+      <group name="smoke">
+        <method signature="LoginTests.loginByEmail()[pri:1, instance:com.kodnest.TestNGConcept.grouping.LoginTests@34123d65]" name="loginByEmail" class="com.kodnest.TestNGConcept.grouping.LoginTests"/>
+        <method signature="LoginTests.loginByFacebook()[pri:2, instance:com.kodnest.TestNGConcept.grouping.LoginTests@34123d65]" name="loginByFacebook" class="com.kodnest.TestNGConcept.grouping.LoginTests"/>
+        <method signature="LoginTests.loginByUsername()[pri:3, instance:com.kodnest.TestNGConcept.grouping.LoginTests@34123d65]" name="loginByUsername" class="com.kodnest.TestNGConcept.grouping.LoginTests"/>
+      </group> <!-- smoke -->
     </groups>
-    <test started-at="2026-03-27T07:25:17 IST" name="Default test" finished-at="2026-03-27T07:25:32 IST" duration-ms="15165">
-      <class name="com.kodnest.TestNGConcept.TestNg1st">
-        <test-method signature="openUrl()[pri:1, instance:com.kodnest.TestNGConcept.TestNg1st@3a393455]" started-at="2026-03-27T07:25:17 IST" name="openUrl" finished-at="2026-03-27T07:25:21 IST" duration-ms="3882" status="PASS">
+    <test started-at="2026-04-06T15:50:22 IST" name="Test" finished-at="2026-04-06T15:50:22 IST" duration-ms="53">
+      <class name="com.kodnest.TestNGConcept.grouping.LoginTests">
+        <test-method signature="loginByEmail()[pri:1, instance:com.kodnest.TestNGConcept.grouping.LoginTests@34123d65]" started-at="2026-04-06T15:50:22 IST" name="loginByEmail" finished-at="2026-04-06T15:50:22 IST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openUrl -->
-        <test-method signature="verifyLogo()[pri:2, instance:com.kodnest.TestNGConcept.TestNg1st@3a393455]" started-at="2026-03-27T07:25:21 IST" name="verifyLogo" finished-at="2026-03-27T07:25:21 IST" depends-on-methods="com.kodnest.TestNGConcept.TestNg1st.openUrl" duration-ms="576" status="PASS">
+        </test-method> <!-- loginByEmail -->
+        <test-method signature="loginByFacebook()[pri:2, instance:com.kodnest.TestNGConcept.grouping.LoginTests@34123d65]" started-at="2026-04-06T15:50:22 IST" name="loginByFacebook" finished-at="2026-04-06T15:50:22 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyLogo -->
-        <test-method signature="login()[pri:3, instance:com.kodnest.TestNGConcept.TestNg1st@3a393455]" started-at="2026-03-27T07:25:21 IST" name="login" finished-at="2026-03-27T07:25:21 IST" depends-on-methods="com.kodnest.TestNGConcept.TestNg1st.verifyLogo" duration-ms="150" status="PASS">
+        </test-method> <!-- loginByFacebook -->
+        <test-method signature="loginByUsername()[pri:3, instance:com.kodnest.TestNGConcept.grouping.LoginTests@34123d65]" started-at="2026-04-06T15:50:22 IST" name="loginByUsername" finished-at="2026-04-06T15:50:22 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="logout()[pri:4, instance:com.kodnest.TestNGConcept.TestNg1st@3a393455]" started-at="2026-03-27T07:25:21 IST" name="logout" finished-at="2026-03-27T07:25:29 IST" duration-ms="7269" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:com.kodnest.TestNGConcept.TestNg1st@3a393455]" started-at="2026-03-27T07:25:29 IST" name="quit" finished-at="2026-03-27T07:25:32 IST" duration-ms="3247" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quit -->
-      </class> <!-- com.kodnest.TestNGConcept.TestNg1st -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- loginByUsername -->
+      </class> <!-- com.kodnest.TestNGConcept.grouping.LoginTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

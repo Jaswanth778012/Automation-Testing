@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.kodnest.TestNGConcept.TestNg1st">
+      <class name="com.kodnest.TestNGConcept.Assertion.SirsQuestion">
         <methods>
           <include name="login"/>
-          <include name="quit"/>
-          <include name="verifyLogo"/>
-          <include name="openUrl"/>
+          <include name="screenshot"/>
+          <include name="logout"/>
         </methods>
-      </class> <!-- com.kodnest.TestNGConcept.TestNg1st -->
+      </class> <!-- com.kodnest.TestNGConcept.Assertion.SirsQuestion -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
