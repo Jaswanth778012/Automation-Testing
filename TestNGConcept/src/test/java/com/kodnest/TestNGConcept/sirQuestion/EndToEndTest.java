@@ -64,9 +64,9 @@ public class EndToEndTest {
 		
 		driver.findElement(By.xpath("//button[normalize-space()='Create Account']")).click();
 		
-//		String text = driver.findElement(By.xpath("//b[normalize-space()='Account Created!']")).getText();
-//
-//		Assert.assertTrue(text.isDisplayed(), "Account not created");
+		WebElement text = driver.findElement(By.xpath("//b[normalize-space()='Account Created!']"));
+
+		Assert.assertTrue(text.isDisplayed(), "Account not created");
 		
 		driver.findElement(By.xpath("//a[normalize-space()='Continue']")).click();
 		
