@@ -16,7 +16,7 @@ public class HandlingLightBox {
 		
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		
-		driver.manage().window().maximize();
+		driver.manage().window().maximize();		
 		
 		driver.findElement(By.xpath("//div[@class='lIkAnG eMU5i5 o5UlW_ hL1e7w'][normalize-space()='Log in']")).click();
 		

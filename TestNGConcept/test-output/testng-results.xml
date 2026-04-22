@@ -1,33 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-07T16:57:13 IST" name="Default suite" finished-at="2026-04-07T16:57:41 IST" duration-ms="28589">
+  <suite started-at="2026-04-22T14:43:00 IST" name="Suite" finished-at="2026-04-22T14:43:03 IST" duration-ms="3422">
     <groups>
     </groups>
-    <test started-at="2026-04-07T16:57:13 IST" name="Default test" finished-at="2026-04-07T16:57:41 IST" duration-ms="28589">
-      <class name="com.kodnest.TestNGConcept.sirQuestion.TestCasesSirs">
-        <test-method is-config="true" signature="url()[pri:0, instance:com.kodnest.TestNGConcept.sirQuestion.TestCasesSirs@7eac9008]" started-at="2026-04-07T16:57:13 IST" name="url" finished-at="2026-04-07T16:57:18 IST" duration-ms="5713" status="PASS">
+    <test started-at="2026-04-22T14:43:00 IST" name="Test1" finished-at="2026-04-22T14:43:02 IST" duration-ms="2475">
+      <class name="com.kodnest.TestNGConcept.parameterization.ParallelExecutionConcept">
+        <test-method is-config="true" signature="open(java.lang.String)[pri:0, instance:com.kodnest.TestNGConcept.parameterization.ParallelExecutionConcept@31190526]" started-at="2026-04-22T14:43:00 IST" name="open" finished-at="2026-04-22T14:43:02 IST" duration-ms="2221" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- url -->
-        <test-method signature="urlTest()[pri:1, instance:com.kodnest.TestNGConcept.sirQuestion.TestCasesSirs@7eac9008]" started-at="2026-04-07T16:57:18 IST" name="urlTest" finished-at="2026-04-07T16:57:20 IST" duration-ms="1491" status="PASS">
+        </test-method> <!-- open -->
+        <test-method signature="imgTest()[pri:2, instance:com.kodnest.TestNGConcept.parameterization.ParallelExecutionConcept@31190526]" started-at="2026-04-22T14:43:02 IST" name="imgTest" finished-at="2026-04-22T14:43:02 IST" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- imgTest -->
+        <test-method signature="titleTest()[pri:3, instance:com.kodnest.TestNGConcept.parameterization.ParallelExecutionConcept@31190526]" started-at="2026-04-22T14:43:02 IST" name="titleTest" finished-at="2026-04-22T14:43:02 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleTest -->
+        <test-method signature="urlTest()[pri:4, instance:com.kodnest.TestNGConcept.parameterization.ParallelExecutionConcept@31190526]" started-at="2026-04-22T14:43:02 IST" name="urlTest" finished-at="2026-04-22T14:43:02 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- urlTest -->
-        <test-method signature="register()[pri:2, instance:com.kodnest.TestNGConcept.sirQuestion.TestCasesSirs@7eac9008]" started-at="2026-04-07T16:57:20 IST" name="register" finished-at="2026-04-07T16:57:33 IST" depends-on-methods="com.kodnest.TestNGConcept.sirQuestion.TestCasesSirs.urlTest" duration-ms="12916" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.kodnest.TestNGConcept.parameterization.ParallelExecutionConcept@31190526]" started-at="2026-04-22T14:43:02 IST" name="quit" finished-at="2026-04-22T14:43:02 IST" duration-ms="154" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- register -->
-        <test-method signature="loginWithCorrect()[pri:3, instance:com.kodnest.TestNGConcept.sirQuestion.TestCasesSirs@7eac9008]" started-at="2026-04-07T16:57:33 IST" name="loginWithCorrect" finished-at="2026-04-07T16:57:39 IST" depends-on-methods="com.kodnest.TestNGConcept.sirQuestion.TestCasesSirs.register" duration-ms="5864" status="PASS">
+        </test-method> <!-- quit -->
+      </class> <!-- com.kodnest.TestNGConcept.parameterization.ParallelExecutionConcept -->
+    </test> <!-- Test1 -->
+    <test started-at="2026-04-22T14:43:00 IST" name="Test2" finished-at="2026-04-22T14:43:03 IST" duration-ms="3422">
+      <class name="com.kodnest.TestNGConcept.parameterization.ParallelExecutionConcept">
+        <test-method is-config="true" signature="open(java.lang.String)[pri:0, instance:com.kodnest.TestNGConcept.parameterization.ParallelExecutionConcept@70325e14]" started-at="2026-04-22T14:43:00 IST" name="open" finished-at="2026-04-22T14:43:03 IST" duration-ms="3226" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginWithCorrect -->
-        <test-method signature="loginWithIncorrect()[pri:4, instance:com.kodnest.TestNGConcept.sirQuestion.TestCasesSirs@7eac9008]" started-at="2026-04-07T16:57:39 IST" name="loginWithIncorrect" finished-at="2026-04-07T16:57:41 IST" depends-on-methods="com.kodnest.TestNGConcept.sirQuestion.TestCasesSirs.register" duration-ms="2514" status="PASS">
+        </test-method> <!-- open -->
+        <test-method signature="imgTest()[pri:2, instance:com.kodnest.TestNGConcept.parameterization.ParallelExecutionConcept@70325e14]" started-at="2026-04-22T14:43:03 IST" name="imgTest" finished-at="2026-04-22T14:43:03 IST" duration-ms="25" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginWithIncorrect -->
-      </class> <!-- com.kodnest.TestNGConcept.sirQuestion.TestCasesSirs -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- imgTest -->
+        <test-method signature="titleTest()[pri:3, instance:com.kodnest.TestNGConcept.parameterization.ParallelExecutionConcept@70325e14]" started-at="2026-04-22T14:43:03 IST" name="titleTest" finished-at="2026-04-22T14:43:03 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleTest -->
+        <test-method signature="urlTest()[pri:4, instance:com.kodnest.TestNGConcept.parameterization.ParallelExecutionConcept@70325e14]" started-at="2026-04-22T14:43:03 IST" name="urlTest" finished-at="2026-04-22T14:43:03 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlTest -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.kodnest.TestNGConcept.parameterization.ParallelExecutionConcept@70325e14]" started-at="2026-04-22T14:43:03 IST" name="quit" finished-at="2026-04-22T14:43:03 IST" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.kodnest.TestNGConcept.parameterization.ParallelExecutionConcept -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
 </testng-results>

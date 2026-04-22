@@ -3,16 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.kodnest.ApachePOI.sirQuestionOnPOI.SauceDemoAssignment">
+      <class name="com.kodnest.ApachePOI.sirQuestionOnPOI.DataProviderSirsQuestion">
         <methods>
-          <include name="login"/>
-          <include name="loginInvalid"/>
-          <include name="url"/>
-          <include name="checkOut"/>
-          <include name="addproduct"/>
-          <include name="quit"/>
+          <include name="login" invocation-numbers="0 1 2 3 4"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.kodnest.ApachePOI.sirQuestionOnPOI.SauceDemoAssignment -->
+      </class> <!-- com.kodnest.ApachePOI.sirQuestionOnPOI.DataProviderSirsQuestion -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
