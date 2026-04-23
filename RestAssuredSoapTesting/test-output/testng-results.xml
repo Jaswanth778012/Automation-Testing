@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-22T23:37:35 IST" name="Default suite" finished-at="2026-04-22T23:37:37 IST" duration-ms="2152">
+    <groups>
+    </groups>
+    <test started-at="2026-04-22T23:37:35 IST" name="Default test" finished-at="2026-04-22T23:37:37 IST" duration-ms="2152">
+      <class name="com.kodnest.RestAssuredSoapTesting.GetTesting">
+        <test-method signature="getTest()[pri:0, instance:com.kodnest.RestAssuredSoapTesting.GetTesting@4d5d943d]" started-at="2026-04-22T23:37:35 IST" name="getTest" finished-at="2026-04-22T23:37:37 IST" duration-ms="2116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTest -->
+        <test-method signature="postTest()[pri:0, instance:com.kodnest.RestAssuredSoapTesting.GetTesting@4d5d943d]" started-at="2026-04-22T23:37:37 IST" name="postTest" finished-at="2026-04-22T23:37:37 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postTest -->
+      </class> <!-- com.kodnest.RestAssuredSoapTesting.GetTesting -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
