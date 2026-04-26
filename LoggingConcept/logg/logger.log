@@ -1,0 +1,4 @@
+2026-04-26 12:08:06,097 - com.kodnest.LoggingConcept.App - [process] - (INFO) - Info method - 
+2026-04-26 12:08:06,098 - com.kodnest.LoggingConcept.App - [process] - (WARN) - Warn method - 
+2026-04-26 12:08:06,099 - com.kodnest.LoggingConcept.App - [process] - (ERROR) - error Method - 
+2026-04-26 12:08:06,099 - com.kodnest.LoggingConcept.App - [process] - (FATAL) - fatal Method - 
