@@ -12,7 +12,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-@Listeners(MyListenerClass.class)
+//@Listeners(MyListenerClass.class)
 public class TestListener {
 	
 WebDriver driver;
