@@ -14,6 +14,7 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class ParallelExecutionConcept {
+	
 	WebDriver driver;
 	
 	@BeforeClass
@@ -24,7 +25,8 @@ public class ParallelExecutionConcept {
 		{
 		case "chrome": driver = new ChromeDriver();
 		break;
-		case "edge": driver = new EdgeDriver();
+		case "edge": 
+			driver = new EdgeDriver();
 		break;
 		default: System.out.println("Invalid browser");
 		return;
