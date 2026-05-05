@@ -21,6 +21,7 @@ public class ExtentReportManager implements ITestListener {
 	
 	public void onStart(ITestContext context)
 	{
+		System.out.println(System.getProperty("user.dir"));
 		sparkReporter = new ExtentSparkReporter(System.getProperty("user.dir")+ "/reports/myReport.html");
 		
 		sparkReporter.config().setDocumentTitle("Automation report");
@@ -30,6 +31,7 @@ public class ExtentReportManager implements ITestListener {
 		sparkReporter.config().setTheme(Theme.DARK);
 		
 		reports = new ExtentReports();
+		reports.attachReporter(sparkReporter);
 		
 		reports.setSystemInfo("ComputerName", "local");
 		reports.setSystemInfo("Environment", "QA Automation Test");
@@ -51,6 +53,14 @@ public class ExtentReportManager implements ITestListener {
 		test.log(Status.FAIL, "Test Case got failed is" + result.getName());
 	}
 	
+	
+	
+	@Override
+	public void onTestSkipped(ITestResult result) {
+		test = reports.createTest(result.getName());
+		test.log(Status.SKIP, "Test Case got Skipped " + result.getName());
+	}
+
 	public void onFinish(ITestContext context)
 	{
 		reports.flush();
